@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaseApiCore.Data\BaseApiCore.Data.csproj" />
+    <ProjectReference Include="..\BaseApiCore.Model\BaseApiCore.Model.csproj" />
+    <ProjectReference Include="..\BaseApiCore.Repository\BaseApiCore.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
